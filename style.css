@@ -1,0 +1,41 @@
+.container {
+	padding: 40px;
+	border: 20px solid maroon;
+	margin-bottom: 2em;
+}
+
+input, button {
+	display: block;
+	margin: .5em;
+	padding: .25em;
+	border: 5px solid #ddd;
+	background-color: none;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, label, input {
+	font-family: 'arial', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #444;
+} 
+
+body, div, button, form {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+button {
+	cursor:	pointer;
+	background: none;
+	border: 5px solid #444;
+	padding: .25em 1em;
+}
+
+button:hover{
+	/*color: maroon;*/
+	border: 5px solid maroon;
+}
