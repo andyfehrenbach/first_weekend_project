@@ -12,6 +12,7 @@ $(document).ready(function() {
 	function appendDom(empInfo) {
 		salary = parseFloat(empInfo.empSalary);
 
+
 	// store the salary value using the data method		
 		$('#dataStore').data( "salaryValue", salary );
 		individualSalaries = $('#dataStore').data( "salaryValue");
@@ -25,6 +26,8 @@ $(document).ready(function() {
 
 		//check
 		console.log(individualSalaries);
+		individualSalaries = individualSalaries / 12;
+
 
 		//calculate total salary
 		totSalary += individualSalaries;
